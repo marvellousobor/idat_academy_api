@@ -1,4 +1,6 @@
+Options +FollowSymLinks
 RewriteEngine On
+RewriteBase /
 
 # If the requested file or directory doesn't exist, route to index.php
 RewriteCond %{REQUEST_FILENAME} !-f
